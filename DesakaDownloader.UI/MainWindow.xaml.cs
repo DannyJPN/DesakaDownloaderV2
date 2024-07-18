@@ -8,10 +8,6 @@ using DesakaDownloader.Downloader.Services;
 using DesakaDownloader.EntitiesLibrary.Entities.Eshops;
 using DesakaDownloader.EntitiesLibrary.Entities.Products;
 using DesakaDownloader.ParsersLibrary.Parsers;
-using DesakaDownloader.DataExportLibrary.Interfaces;
-using DesakaDownloader.DataExportLibrary.Exporters;
-using DesakaDownloader.DataImportLibrary.Interfaces;
-using DesakaDownloader.DataImportLibrary.Importers;
 using System.Windows.Controls;
 
 namespace DesakaDownloader.UI

@@ -7,7 +7,7 @@ namespace DesakaDownloader.EntitiesLibrary.Entities.Eshops
 {
     public abstract class Eshop
     {
-        public string BaseUrl { get; protected set; }
+        public Uri BaseUrl { get; protected set; }
         public HtmlDocument MainPage { get; set; }
         public List<string> Categories { get; set; }
         public List<HtmlDocument> CategoryPages { get; set; }

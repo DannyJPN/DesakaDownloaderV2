@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <ProjectReference Include="..\DesakaDownloader.Downloader\DesakaDownloader.Downloader.csproj" />
     <ProjectReference Include="..\DesakaDownloader.EntitiesLibrary\DesakaDownloader.EntitiesLibrary.csproj" />
   </ItemGroup>
 

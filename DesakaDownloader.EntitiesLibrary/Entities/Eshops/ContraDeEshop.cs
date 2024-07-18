@@ -9,7 +9,7 @@ namespace DesakaDownloader.EntitiesLibrary.Entities.Eshops
     {
         public ContraDeEshop()
         {
-            BaseUrl = "https://www.contra.de";
+            BaseUrl = new Uri("https://www.contra.de");
         }
 
         public override async Task LoadCategoryPagesAsync()

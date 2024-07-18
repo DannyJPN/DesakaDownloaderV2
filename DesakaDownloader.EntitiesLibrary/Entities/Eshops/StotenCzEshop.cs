@@ -10,7 +10,7 @@ namespace DesakaDownloader.EntitiesLibrary.Entities.Eshops
     {
         public StotenCzEshop()
         {
-            BaseUrl = "https://www.stoten.cz";
+            BaseUrl = new Uri("https://www.stoten.cz");
         }
 
         public override async Task LoadCategoryPagesAsync()

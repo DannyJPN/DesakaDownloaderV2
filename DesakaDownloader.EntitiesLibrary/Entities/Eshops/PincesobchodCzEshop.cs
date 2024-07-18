@@ -9,7 +9,7 @@ namespace DesakaDownloader.EntitiesLibrary.Entities.Eshops
     {
         public PincesobchodCzEshop()
         {
-            BaseUrl = "https://www.pincesobchod.cz";
+            BaseUrl = new Uri("https://www.pincesobchod.cz");
         }
 
         public override async Task LoadCategoryPagesAsync()

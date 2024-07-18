@@ -9,7 +9,7 @@ namespace DesakaDownloader.EntitiesLibrary.Entities.Eshops
     {
         public NittakuEshop()
         {
-            BaseUrl = "https://www.nittaku.com";
+            BaseUrl = new Uri("https://www.nittaku.tt");
         }
 
         public override async Task LoadCategoryPagesAsync()

@@ -10,7 +10,7 @@ namespace DesakaDownloader.EntitiesLibrary.Entities.Eshops
     {
         public SportspinCzEshop()
         {
-            BaseUrl = "https://www.sportspin.cz";
+            BaseUrl = new Uri("https://www.sportspin.cz");
         }
 
         public override async Task LoadCategoryPagesAsync()
