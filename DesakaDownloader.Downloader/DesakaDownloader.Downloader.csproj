@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesakaDownloader.EntitiesLibrary\DesakaDownloader.EntitiesLibrary.csproj" />
+    <ProjectReference Include="..\DesakaDownloader.ParsersLibrary\DesakaDownloader.ParsersLibrary.csproj" />
+    <ProjectReference Include="..\DesakaDownloader.ConvertersLibrary\DesakaDownloader.ConvertersLibrary.csproj" />
+    <ProjectReference Include="..\DesakaDownloader.DataExportLibrary\DesakaDownloader.DataExportLibrary.csproj" />
+    <ProjectReference Include="..\DesakaDownloader.AILibrary\DesakaDownloader.AILibrary.csproj" />
+    <ProjectReference Include="..\DesakaDownloader.DataImportLibrary\DesakaDownloader.DataImportLibrary.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
